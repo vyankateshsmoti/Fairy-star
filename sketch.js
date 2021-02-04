@@ -43,7 +43,7 @@ function draw(){
 drawSprites();
 Engine.update(engine);
 
-if(starBody.position.y>410){
+if(starBody.position.y>422){
   Matter.Body.setStatic(starBody, true);
 }
 
